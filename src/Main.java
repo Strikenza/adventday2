@@ -24,9 +24,6 @@ public class Main {
                     if (length % j == 0) {
                         for (int l = 0; l <= amt - 2; l++) {
                             if (str.substring(l * j, (l + 1) * j).equals(str.substring((l + 1) * j, (l + 2) * j)) ) {
-                                //System.out.println(str.substring(l * j, (l + 1) * j));
-                                //System.out.println("-------");
-                                //System.out.println(str.substring((l + 1) * j, (l + 2) * j));
                                 counter2++;
                             }
                         }
